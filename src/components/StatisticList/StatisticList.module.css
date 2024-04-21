@@ -1,0 +1,24 @@
+.item {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(20%);
+    height: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.percentage {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 450px) {
+    .percentage {
+        font-size: 34px;
+    }
+}
